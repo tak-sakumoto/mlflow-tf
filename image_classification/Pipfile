@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mlflow = "*"
+tensorflow-datasets = "*"
+tensorflow-hub = "*"
+tensorflow-gpu = "==2.4"
+matplotlib = "*"
+tensorflow = "==2.4"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
